@@ -1,9 +1,8 @@
 # localizador
 Localizador de arquivos escrito em Java. 
-- javac TesteLocalizador.java Localizador.java LocalizadorImpl.java
-- java TesteLocalizador \<tipo-de-arquivo> \<diretorio>
-
-Exemplo: java TesteLocalizador jpg arquivos-hackaton
+- mvn compile
+- mvn package
+- java -cp target/localizador-0.1.0.jar localizador.Teste xls /path/to/arquivos_hackaton
 
 Obs.: Apenas os arquivos que seguirem as seguintes regras serão encontrados:
 
